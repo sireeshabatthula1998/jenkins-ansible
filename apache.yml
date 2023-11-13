@@ -1,7 +1,7 @@
 --- 
 - 
   become: true
-  hosts: webservers
+  hosts: webserver
   tasks: 
     - 
       yum: 
